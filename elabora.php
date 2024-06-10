@@ -16,5 +16,6 @@ $nomecognomecorretti = ucfirst($nome) . " " . ucfirst($cognome);
 </head>
 <body>
     <h1>Hellow, <?php echo  $username; ?></h1>
+    <h2>Hellow, <?php echo  $nomecognomecorretti; ?></h2>
 </body>
 </html>
