@@ -10,8 +10,7 @@
 
 <form action="elabora.php" method="GET">
 
-<input type="text" placeholder="Scrivi il tuo nome" name="nome">
-<input type="text" placeholder="Scrivi il tuo cognome" name="cognome">
+<input type="text" placeholder="Scrivi la tua parola" name="userWord">
 
 <button type="submit">Invia</button>
 

@@ -1,10 +1,6 @@
 <?php 
-$nome = $_GET['nome'];
-$cognome = $_GET['cognome'];
-$username = $nome . " " . $cognome ;
+$userWord = $_GET['userWord'];
 
-//ucfirst ritorna la stringa con la prima lettera maiuscoila
-$nomecognomecorretti = ucfirst($nome) . " " . ucfirst($cognome);
 ?>
 
 <!DOCTYPE html>
@@ -15,7 +11,9 @@ $nomecognomecorretti = ucfirst($nome) . " " . ucfirst($cognome);
     <title>PHP elabora</title>
 </head>
 <body>
-    <h1>Hellow, <?php echo  $username; ?></h1>
-    <h2>Hellow, <?php echo  $nomecognomecorretti; ?></h2>
+<h1>La tua parola è lunga  <?php echo strlen($userWord);?> caratteri</h1>
+<h2>La tua parola è ,<?php echo $userWord;?></h2>
+
+
 </body>
 </html>
