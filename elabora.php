@@ -1,3 +1,12 @@
+<?php 
+$nome = $_GET['nome'];
+$cognome = $_GET['cognome'];
+$username = $nome . " " . $cognome ;
+
+//ucfirst ritorna la stringa con la prima lettera maiuscoila
+$nomecognomecorretti = ucfirst($nome) . " " . ucfirst($cognome);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +15,6 @@
     <title>PHP elabora</title>
 </head>
 <body>
-    
+    <h1>Hellow, <?php echo  $username; ?></h1>
 </body>
 </html>

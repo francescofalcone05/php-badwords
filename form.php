@@ -6,11 +6,14 @@
     <title>PHP intro form</title>
 </head>
 <body>
+    <h1>Benvenuti in php</h1>
 
-<form action="">
+<form action="elabora.php" method="GET">
 
-<input type="text">
-<button>Invia</button>
+<input type="text" placeholder="Scrivi il tuo nome" name="nome">
+<input type="text" placeholder="Scrivi il tuo cognome" name="cognome">
+
+<button type="submit">Invia</button>
 
 </form>
     
