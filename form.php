@@ -10,7 +10,7 @@
 
 <form action="elabora.php" method="GET">
 
-<input type="text" placeholder="Scrivi la tua parola" name="userWord">
+<input type="text" placeholder="Scrivi la tua badword" name="userPhrase">
 
 <button type="submit">Invia</button>
 
